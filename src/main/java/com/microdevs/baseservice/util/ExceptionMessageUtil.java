@@ -6,6 +6,8 @@ public final class ExceptionMessageUtil {
         throw new AssertionError("Utility class cannot be instantiated");
     }
 
+
+
     public static final String ISE = "Internal Server Error";
     public static final String NPE = "Null Pointer Exception";
     public static final String BR = "Bad Request";
@@ -14,4 +16,6 @@ public final class ExceptionMessageUtil {
     public static final String AD = "Access Denied";
     public static final String NF = "Not Found";
     public static final String IS = "Illegal State";
+    public static final String IBE = "IndexOutOfBoundsException";
+    public static final String ME = "Micro Exception";
 }
