@@ -1,4 +1,4 @@
-package com.microdevs.baseservice.service;
+package com.microdevs.baseservice.entity;
 
 import org.hibernate.envers.Audited;
 import org.springframework.data.annotation.CreatedDate;
