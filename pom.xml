@@ -12,7 +12,7 @@
 
     <groupId>com.microdevs</groupId>
     <artifactId>base-service</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.7</version>
 
     <name>base-service</name>
     <description>base-service</description>
@@ -43,6 +43,11 @@
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-envers</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>jakarta.validation</groupId>
+            <artifactId>jakarta.validation-api</artifactId>
         </dependency>
     </dependencies>
 
